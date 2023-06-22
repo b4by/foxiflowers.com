@@ -1,0 +1,19 @@
+.title {
+  @apply font-bold text-[32px] leading-[36px] mb-[42px];
+}
+
+.subtitle {
+  @apply font-bold text-[26px] leading-none;
+}
+
+.text {
+  @apply font-light text-[16px] leading-6;
+}
+
+.list {
+  @apply list-outside list-disc flex flex-col gap-y-2 pl-[20px];
+}
+
+.list_item {
+  @apply font-light text-[16px] leading-6;
+}
